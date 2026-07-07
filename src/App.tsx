@@ -23,6 +23,8 @@ import {
   Clock
 } from 'lucide-react';
 
+// import logo from './assets/images/charcoal_logo_dark_bg_1781622907683.jpg';
+
 interface Specification {
   label: string;
   value: string;
@@ -150,11 +152,13 @@ export default function App() {
             {/* Logo in Modern Bold Industrial Style */}
             <div className="flex items-center gap-3 cursor-pointer group" onClick={() => handleScrollTo('home')}>
               <img 
-                src="/src/assets/images/charcoal_logo_dark_bg_1781622907683.jpg" 
+                src="/src/assets/images/charcoal_logo_dark_bg_1781622907683.jpg"
+                // src={logo}
+                // src="/images/logo.jpg"
                 alt="FOS Logo" 
                 referrerPolicy="no-referrer"
                 // className="w-10 h-10 object-contain mix-blend-screen transition-transform group-hover:scale-105"
-                className="w-10 h-10 object-contain mix-blend-screen transition-transform group-hover:scale-53"
+                 className="w-14 h-14 object-contain"
               />
               <span className="font-sans font-black tracking-tighter text-xl uppercase">
                 FOS<span className="text-amber-500"> AS ENERGY</span>
