@@ -349,7 +349,7 @@ export default function App() {
               <div className="text-left py-2">
                 <span className="block text-[9px] uppercase tracking-widest text-white/40 mb-1">Direct Connection</span>
                 <span className="block text-[11px] font-semibold text-amber-500 uppercase tracking-wider mb-0.5">by Yudi Mulyadi</span>
-                <span className="block text-[11px] font-semibold text-white-500 tracking-wider mb-0.5"> buy a transfer to BCA (Swift Code: CENAIDJA)</span>
+                <span className="block text-[11px] font-semibold text-white-500 tracking-wider mb-0.5"> buy a transfer to BCA</span>
                 <span className="text-sm font-bold block text-white">+62 8965 1864 733</span>
               </div>
             </div>
@@ -837,6 +837,18 @@ export default function App() {
                 >
                   FORMAT & OPEN WHATSAPP CHAT
                 </button>
+              </div>
+              
+              {/* Bank Information Read-only Display */}
+              <div className="mt-4 p-4 bg-black/60 border border-white/10 font-mono text-xs space-y-2.5">
+                <div>
+                  <span className="text-amber-500 font-bold uppercase tracking-wider block mb-0.5">Bank Address:</span>
+                  <span className="text-white/90 leading-relaxed block">Jl. Raya Cimahi No. 533, Karangmekar, District. Central Cimahi, Cimahi City, West Java 40523</span>
+                </div>
+                <div className="pt-2 border-t border-white/10">
+                  <span className="text-amber-500 font-bold uppercase tracking-wider block mb-0.5">Account Number:</span>
+                  <span className="text-white font-mono font-bold tracking-widest text-sm">1394102043 - SWIFT Code: CENAIDJA</span>
+                </div>
               </div>
             </form>
           </div>
