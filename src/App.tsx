@@ -348,6 +348,8 @@ export default function App() {
               </button>
               <div className="text-left py-2">
                 <span className="block text-[9px] uppercase tracking-widest text-white/40 mb-1">Direct Connection</span>
+                <span className="block text-[11px] font-semibold text-amber-500 uppercase tracking-wider mb-0.5">by Yudi Mulyadi</span>
+                <span className="block text-[11px] font-semibold text-white-500 tracking-wider mb-0.5"> buy a transfer to BCA (Swift Code: CENAIDJA)</span>
                 <span className="text-sm font-bold block text-white">+62 8965 1864 733</span>
               </div>
             </div>
