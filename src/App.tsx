@@ -964,12 +964,12 @@ export default function App() {
               </span>
             </div>
 
-            <div className="md:text-right">
-              <span className="block text-[9px] uppercase tracking-widest text-white/40 mb-3">Socials & Networks</span>
-              <div className="flex md:justify-end gap-5 text-xs text-white/60">
-                <a href="#" className="hover:text-amber-500 transition-colors">LINKEDIN</a>
-                <a href="#" className="hover:text-amber-500 transition-colors">INSTAGRAM</a>
-                <a href="#" className="hover:text-amber-500 transition-colors">EXPORT_PORTAL</a>
+            <div>
+              <span className="block text-[9px] uppercase tracking-widest text-white/40 mb-3">Support</span>
+              <div className="flex justify-start gap-5 text-xs text-white/60 select-none">
+                <span>FRIENDLY</span>
+                <span>ENERGY</span>
+                <span>EXPORT_PORTAL</span>
               </div>
             </div>
           </div>
@@ -983,3 +983,4 @@ export default function App() {
     </div>
   );
 }
+``
