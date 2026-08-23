@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import logo from './assets/images/charcoal_logo_dark_bg_1781622907683.jpg';
-import image from './assets/images/charcoal_product_showcase_fos_1781360804359.jpg';
+// import image from './assets/images/charcoal_product_showcase_fos_1781360804359.jpg';
+import image from './assets/images/charcoal1kg_product_showcase_fos_1781360804359.jpg';
 import { 
   Menu, 
   X, 

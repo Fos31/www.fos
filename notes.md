@@ -13,3 +13,12 @@ lihat file package.json dibagian
   https://aistudio.google.com/u/2/apps/feb6126f-58fb-44a2-a058-63225cd6ae55?showPreview=true&showAssistant=true 
 
   email:yudi31mulya@gmail.com
+
+
+
+  setiap perubahan code lalu deploy
+  $ git add .
+  git commit
+  git push
+
+  ini karena sudah deployment ke production
