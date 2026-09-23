@@ -894,7 +894,7 @@ export default function App() {
             </p>
             <div className="flex flex-wrap gap-x-8 gap-y-2 text-white/50 pt-2 text-xs">
               <div>Chat_Me: <span className="text-white font-bold"><a href="https://chat.google.com/u/7/app/home" target="_blank" rel="noopener noreferrer">chatgoogle.com</a></span> (Alternative)</div>
-              <div>Web: <span className="text-amber-500 font-bold transition-colors hover:underline"><a href="https://websitefos.vercel.app/" target="_blank" rel="noopener noreferrer">www.asenergy.id</a></span></div>
+              {/* <div>Web: <span className="text-amber-500 font-bold transition-colors hover:underline"><a href="https://websitefos.vercel.app/" target="_blank" rel="noopener noreferrer">www.asenergy.id</a></span></div> */}
             </div>
           </div>
 
