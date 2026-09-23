@@ -22,3 +22,5 @@ lihat file package.json dibagian
   git push
 
   ini karena sudah deployment ke production
+
+  yang di webfos kedua cuma menjalankan file html.nya aja
