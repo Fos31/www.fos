@@ -28,10 +28,28 @@
 
       gtag("config", "AW-18313052785");
     </script>
+
+    <!-- Event snippet for Pembelian conversion page -->
+    <script>
+      gtag('event', 'conversion', {
+        'send_to': 'AW-18313052785/V1kFCPrGhs8cEPGErJxE',
+        'value': 1.0,
+        'currency': 'IDR'
+      });
+    </script>
+    <script async custom-element="amp-analytics"
+    src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
   </head>
 
   <body>
     <div id="root"></div>
+
+    <!-- Google tag (gtag.js) -->
+    <amp-analytics type="gtag" data-credentials="include">
+    <script type="application/json"> { "vars": { "gtag_id": "AW-18313052785", "config": { "AW-18313052785": { "groups": "default" } } }, 
+    "triggers": {"C_Ii8P9K6dNEE": { "on": "visible", "vars": { "event_name": "conversion", "value": 1.0, "currency": "IDR", "transaction_id": "", "send_to": ["AW-18313052785/V1kFCPrGhs8cEPGErJxE"] } } } }
+    </script> </amp-analytics>
 
     <script type="module" src="/src/main.tsx"></script>
   </body>
