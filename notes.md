@@ -16,7 +16,7 @@ lihat file package.json dibagian
 
 
 
-  setiap perubahan code lalu deploy
+  setiap perubahan code lalu deploy **Yudi Mulyadi@Workpro-Lite MINGW64 ~/OneDrive/Documents/ArangProd/coconut-charcoal-landing-page (main)
   $ git add .
   git commit
   git push
